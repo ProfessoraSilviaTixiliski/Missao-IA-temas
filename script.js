@@ -6,17 +6,18 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado:"O termo sustentabilidade emerge das discussões sobre a necessidade de preservação do meio ambiente. Nesse sentido, ele está atrelado à/ao:",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Delimitação de pequenas zonas indicadas para a preservação do espaço natural.",
+            "Equilíbrio entre a preservação ambiental e o suprimento das necessidades humanas."
+          
         ]
     },
     {
-    enunciado: "Pergunta 2",
+    enunciado: "A sustentabilidade é formada por um tripé composto por três grandes esferas:",
     alternativas: [
-        "Alternativa 1",
-        "Alternativa 2"
+        "Social, ambiental e econômica.",
+        "Local, cultural e socioambiental."
     }    
  ];
 
