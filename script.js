@@ -30,7 +30,7 @@ const perguntas = [
     mostraAlternativas();
  }
 
- function mostraPergunta()[
+ function mostraAlternativas()[
     for(const alternativa of pertuntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa;
