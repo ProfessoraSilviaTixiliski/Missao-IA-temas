@@ -20,5 +20,15 @@ const perguntas = [
     }    
  ];
 
+ let atual = 0;
+ let pertuntaAtual;
+
+ function mostraPergunta(){
+    perguntaAtual = perguntas[Atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado; 
+ }
+ mostraPergunta();
+
+
 
 
